@@ -15,6 +15,7 @@ import random
 
 from tensorflow.keras.utils import to_categorical
 random.seed(0)
+np.random.seed(0)
 
 class Agent():
     def __init__(self, omega_dim):
